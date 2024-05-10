@@ -2,10 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    Hello world!
+    <title>Lacey's Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
-
+    <header class="mainHeader">
+        <button id="headerMenuButton" onclick="toggleMenu()">Menu</button>
+        <menu id="headerMenu" class="closed">
+            <li class="menuItem">
+                <a class="menuLink" href="/">Home</a>
+            </li>
+            <li class="menuItem">
+                <a class="menuLink" href="/">About</a>
+            </li>
+            <li class="menuItem">
+                <a class="menuLink" href="/">Photography</a>
+            </li>
+            <li class="menuItem">
+                <a class="menuLink" href="/">Game Design</a>
+            </li>
+        </menu>
+    </header>
+    <section class="hidden">
+        <h1>Testing!</h1>
+    </section>
+    <section class="hidden">
+        <h2>This is a section</h2>
+        <p> Isn't she beautiful? </p>
+    </section>
+    <section class="hidden">
+        <h2>This is another section</h2>
+        <p> Even prettier !</p>
+    </section>
 </body>
 </html>
